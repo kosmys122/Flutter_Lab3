@@ -5,7 +5,8 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: (Scaffold(body: GradientContainer())),
+      home: (Scaffold(body: GradientContainer())
+      ),
     ),
   );
 }
